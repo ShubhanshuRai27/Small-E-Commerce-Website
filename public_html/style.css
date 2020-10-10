@@ -1,0 +1,60 @@
+body { 
+    padding-top: 65px; 
+}
+
+.content{
+    min-height: 600px;
+}
+.banner-image{
+ padding-bottom: 50px;
+ margin-bottom: 20px;
+ text-align: center;
+ color: #f8f8f8;
+ background: url("img/intro-bg_1.jpg") no-repeat center;
+ background-size: cover;
+}
+
+.inner-banner-image{
+ padding-top: 12%;
+ width:80%;
+ margin:auto;
+}
+
+.banner-content{
+ position: relative;
+ padding-top: 6%;
+ padding-bottom: 6%;
+ overflow:hidden;
+ margin-bottom: 12%;
+ background-color: rgba(0, 0, 0, 0.7);
+ max-width: 660px;
+}
+
+.banner-header{
+    font-weight: 400;
+}
+
+.button:hover{
+    text-decoration: none;
+    color:black;
+}
+
+footer{
+padding: 10px 0;
+background-color: #101010;
+color:#9d9d9d;
+  position: fixed;  /* For fixing the position    */
+  left: 0;          /* Distance from left should be 0 */
+  bottom: 0;         /* Distance to bottom should be 0 (fix to buttom) */
+  width: 100%;
+  text-align: center;
+}
+
+#prodfooter{
+    position: relative;
+}
+
+.pad{
+    padding:30px
+}
+    
